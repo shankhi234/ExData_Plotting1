@@ -20,5 +20,5 @@ dat[1:1440,"Time"] <- format(dat[1:1440,"Time"],"2007-02-01 %H:%M:%S")
 dat[1441:2880,"Time"] <- format(dat[1441:2880,"Time"],"2007-02-02 %H:%M:%S")
 
 #plotting the plot
-plot(dat$Time, as.numeric(as.character(dat$Global_Active)), type = "1", xlab = " " ylab = "Global Active Power (kilowatts)")
+plot(dat$Time, as.numeric(as.character(dat$Global_Active)), type = "1", xlab = " ", ylab = "Global Active Power (kilowatts)")
 title(main = "Global Active Power VS Time")
