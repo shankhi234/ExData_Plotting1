@@ -46,4 +46,4 @@ title(main = "Energy sub-metering")
 plot(dat$Time,as.numeric(as.character(dat$Global_Reactive)), type="l", xlab="Date", ylab="Global Reactive Power")
 
 #convert to png
-png(plot1, width = 480, height = 480, units = "px")
+png(plot4, width = 480, height = 480, units = "px")
