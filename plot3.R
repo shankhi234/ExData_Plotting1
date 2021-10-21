@@ -32,3 +32,5 @@ with(dat, lines(Time, as.numeric(as.character(
 )),col = "blue"))
 legend("topright", lty = 1, legend = c("Sub Metering 1", "Sub Metering 2", "Sub Metering 3"), col = c("black", "red", "blue"))
 title(main = "Energy sub-metering")
+
+png(plot3, width = 480, height = 480, units = "px")
